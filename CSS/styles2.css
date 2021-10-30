@@ -1,0 +1,144 @@
+body{
+    background-color: rgb(171, 78, 183);
+}
+
+.container-card{
+    padding: 50px 0px 50px 0px;
+    margin-bottom: 2em;
+}
+
+.img-perfil-card{
+font-display: flex;
+justify-content: center;
+}
+
+.card-title{
+    font-family: "poppins";
+}
+
+.hr{
+    height: 1px;
+    background-color: rgb(0, 0, 0);
+    width: 30%;
+}
+
+.card-image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 1em;
+}
+
+.card-perfil{
+    background-color: rgb(51, 143, 255) !important;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+.botoes.card{
+    display: flex;
+    justify-content: center;
+}
+
+#btn-sobre{
+    border-radius: 20px;
+    padding: 5px 25px;
+    background-color: rgb(171, 78, 183) !important;
+    font-weight: 600;
+    color: #fff
+}
+
+#btn-projetos{
+    border: 2px solid rgb(235, 184, 235);
+    border-radius: 20px;
+    padding: 5px 25px;
+    background-color: rgb(171, 78, 183);
+    font-weight: 600;
+    color: #fff !important;
+}
+
+.icon-redes-sociais{
+    text-align: center;
+    padding: 10px;
+}
+
+.title-text{
+    margin-top: 1em;
+    font-weight: 600;
+    }
+
+.title-subtitle{
+    margin: 1em 0;
+}   
+
+.text{
+    padding: 5px 17px;
+}
+
+.links-redes-sociais{
+    text-decoration: none;
+}
+
+.links-redes-sociais i{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 10px;
+}
+
+#footer-elementos{
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-elementos.e-mail{
+    padding: 15px 0px 15px 0px;
+}
+
+@media (min-width: 900px){
+    .container-linear{
+        background: linear-gradient(to left, rgb(235, 184, 235) 60%, rgb(250, 223, 238) 40%);
+    }
+}
+
+.card-col{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    background-color: rgb(51, 143, 255) !important;
+    box-shadow: -5px 10px 10px 5px;
+}
+
+.card-perfil{
+    background: rgb(126 197, 230) !important;
+    color: rgb(0, 0, 0);
+    box-shadow: none !important;
+    width: 18em;
+border: none !important;
+}
+
+.btn-card{
+    color: rgb(0, 0, 0) !important;
+    }
+
+    .text-body{
+        box-shadow: none;
+    }
+
+    .text{
+        max-width: 430px;
+        vertical-align: middle;
+        margin-top: 2em;
+    }
+
+    #footer-elementos{
+        display: flex !important;
+        justify-content: center !important;
+        color: rgb(255, 255, 255);
+    }
+
+    #texto-1{
+        
+    }
+
+    #texto-2{
+        display: none;
+    }
